@@ -1,0 +1,18 @@
+# 🚦 Smart Traffic Signal RL Environment
+
+## 📌 Problem Statement
+Design an AI agent that controls traffic signals to reduce traffic congestion using Reinforcement Learning.
+
+## ⚙️ Approach
+- Custom traffic environment
+- Q-learning algorithm
+- Reward based on waiting time
+
+## 🎯 Features
+- 2-way traffic junction
+- Adaptive signal control
+- Reduced waiting time
+
+## ▶️ How to Run
+```bash
+python main.py
