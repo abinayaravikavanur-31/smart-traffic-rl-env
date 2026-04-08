@@ -6,4 +6,4 @@ COPY . .
 
 RUN pip install numpy
 
-CMD ["python", "inference.py"]
+CMD ["python", "-u", "inference.py"]
