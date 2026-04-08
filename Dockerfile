@@ -1,9 +1,10 @@
+
 FROM python:3.9
 
 WORKDIR /app
 
 COPY . .
 
-RUN pip install numpy
+RUN pip install fastapi uvicorn numpy
 
-CMD ["python", "-u", "inference.py"]
+CMD ["uvicorn", "inference:app", "--host", "0.0.0.0", "--port", "8000"]
